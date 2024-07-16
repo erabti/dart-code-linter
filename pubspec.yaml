@@ -13,30 +13,30 @@ platforms:
 
 dependencies:
   analyzer: ^6.0.0
-  analyzer_plugin: ^0.11.0
-  ansicolor: ^2.0.1
+  analyzer_plugin: ^0.11.3
+  ansicolor: ^2.0.2
   args: ^2.0.0
   collection: ^1.16.0
-  crypto: ^3.0.0
-  file: ^6.0.0
-  glob: ^2.0.1
-  html: ^0.15.0
-  http: ^1.1.0
-  meta: ^1.7.0
-  path: ^1.8.0
-  platform: ^3.1.0 # overridden for lowest versions compatibility
-  pub_updater: ^0.3.0
+  crypto: ^3.0.3
+  file: ^7.0.0
+  glob: ^2.1.2
+  html: ^0.15.4
+  http: ^1.2.1
+  meta: ^1.10.0
+  path: ^1.9.0
+  platform: ^3.1.0
+  pub_updater: ^0.4.0
   source_span: ^1.10.0
-  uuid: ^4.1.0
+  uuid: ^4.4.2
   xml: ">=5.3.0 <7.0.0"
-  yaml: ^3.1.0
+  yaml: ^3.1.2
 
 dev_dependencies:
-  coverage: ^1.0.2
+  coverage: ^1.8.0
   intl: ">=0.17.0 <0.19.0"
-  lints: ^2.0.0
-  mocktail: ^0.3.0
-  test: ^1.21.0
+  lints: ^4.0.0
+  mocktail: ^1.0.4
+  test: ^1.25.8
 
   # internal package, used only in tests data
   test_lints:
